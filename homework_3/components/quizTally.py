@@ -11,9 +11,10 @@ def total(value):
         vars.character = vars.characters[0]
         
     elif value >= 10:
-        vars.character = vars.characters[0]
+        vars.character = vars.characters[1]
+        
 
-        print("It's :fire:, :punch:,:muscle:"+ vars.character)
+        print ("It's :fire:,:boom:,:punch:,:muscle:"+ vars.character)
         # add some emoji icons, or show the character image using the Pillow package
         
         vars.character = Image.open ("Hulk.jpg")
