@@ -13,12 +13,14 @@ def total(value):
         print("It's :fire:, :punch:,:muscle:"+ vars.character)
         # add some emoji icons, or show the character image using the Pillow package
         
-        vars.character = Image.open (Hulk.jpg)
+        vars.character = Image.open ('Hulk.jpg')
         Image.show()
 
-        vars.character = Image.open (Thor.jpg)
+        vars.character = Image.open ('Thor.jpg')
         Image.show()
 
+        vars.character = Image.open ('Captin America.jpg')
+        Image.show()
 
     
        
