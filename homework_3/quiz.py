@@ -1,7 +1,7 @@
 from components.quizQuestions import questions
 from components import vars, quizTally
-from PIL import images
-import emoji
+from PIL import Image
+from emoji import emojize
 
 answer1 = questions["q1"][input(questions["q1"]["question"])]
 print(answer1)
