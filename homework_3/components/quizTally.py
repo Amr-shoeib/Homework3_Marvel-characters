@@ -3,6 +3,7 @@ from tkinter import Image
 from xml.dom.pulldom import CHARACTERS
 from components import vars
 from PIL import Image
+from emoji import emojize
 
 def total(value):
     # do some logic to see which character you selected
@@ -14,8 +15,8 @@ def total(value):
         vars.character = vars.characters[1]
         
 
-        print ("It's :fire:,:boom:,:punch:,:muscle:"+ vars.character)
-        # add some emoji icons, or show the character image using the Pillow package
+        print (emoji.emojize('It is :fire:,:boom:,:punch:,:muscle:')) + vars.character
+        
         
         vars.character = Image.open ("Hulk.jpg")
         Image.show()
@@ -27,4 +28,4 @@ def total(value):
         Image.show()
 
     
-       
+    
